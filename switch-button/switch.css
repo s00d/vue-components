@@ -8,7 +8,7 @@
     transition: background-color 0.1s ease-in;
 }
 .s00d-switch.open {
-    background-color: #4c9cee;
+    background-color: #39bbf9;
 }
 .s00d-switch.open .s00d-switch__btn {
     right: 2px;
