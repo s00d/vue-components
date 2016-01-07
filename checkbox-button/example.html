@@ -7,7 +7,7 @@
 </head>
 <body>
 <div id="test">
-  <checkbox-button :status.sync="status" v-model="checkbox-test(status)"></checkbox-button>
+  <checkbox-button :status.sync="status" v-bind:click="checkbox-test(status)"></checkbox-button>
 </div>
 </body>
 </html>
