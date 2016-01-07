@@ -1,4 +1,4 @@
-.t-switch {
+.s00d-switch {
     position: relative;
     width: 50px;
     height: 24px;
@@ -7,14 +7,14 @@
     -webkit-transition: background-color 0.1s ease-in;
     transition: background-color 0.1s ease-in;
 }
-.t-switch.open {
+.s00d-switch.open {
     background-color: #4c9cee;
 }
-.t-switch.open .t-switch__btn {
+.s00d-switch.open .s00d-switch__btn {
     right: 2px;
     left: auto;
 }
-.t-switch__btn {
+.s00d-switch__btn {
     position: absolute;
     top: 2px;
     left: 2px;
