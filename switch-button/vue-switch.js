@@ -7,7 +7,7 @@ Vue.component('switch-button', {
             toWay : true
         }
     },
-    template: '<div class="t-switch" v-bind:class="{open :status}" v-on:click="status=!status"> <div class="t-switch__btn"></div></div>'
+    template: '<div class="s00d-switch" v-bind:class="{open :status}" v-on:click="status=!status"> <div class="s00d-switch__btn"></div></div>'
 });
 
 $(document).ready(function(){
@@ -20,6 +20,11 @@ $(document).ready(function(){
             status: function(val) {
                 console.log(val);
             }
+        },
+        methods: {
+            switch-test: function (val) {
+                console.log(val);
+            },
         }
     })
 })
