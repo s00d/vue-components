@@ -1,0 +1,22 @@
+.s00d-chkbox { 
+  position: absolute;
+  opacity: 0; 
+  z-index: -1;
+}
+.s00d-chkbox+span { 
+  font: 16pt sans-serif; 
+  color: #39bbf9; 
+}
+.s00d-chkbox+span:before { 
+  font: 16pt FontAwesome; 
+  content: '\00f096'; 
+  display: inline-block; 
+  width: 16pt; 
+  padding: 3px; 
+  margin-right: 3px; 
+  vertical-align: middle;
+}
+.s00d-chkbox:checked+span:before { 
+  content: '\00f046'; 
+}
+
