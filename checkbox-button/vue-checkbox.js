@@ -4,9 +4,10 @@ Vue.component('checkbox-button', {
             type : Boolean,
             default : false,
             toWay : true
-        }
+        },
+        title: ''
     },
-    template: '<label><input type="checkbox" v-on:click="status=!status" class="s00d-chkbox"><span></span></label>'
+    template: '<label><span v-text="title"><input type="checkbox" v-on:click="status=!status" class="s00d-chkbox"><span></span></label>'
 });
 
 
