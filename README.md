@@ -9,3 +9,7 @@ this vue components example
 2) checkbox-button - checkbox
 
 ![checkbox](https://s3.amazonaws.com/f.cl.ly/items/2V1T1D2F1N0R152i0a0B/Image%202016-01-08%20at%201.58.39%20AM.png?v=5c0e6fb8)
+
+3) paginate
+
+![paginate](https://s3.amazonaws.com/f.cl.ly/items/102o3J2h1G311O1s1b3R/Image%202016-01-08%20at%204.29.26%20PM.png?v=6c8c5b50)
