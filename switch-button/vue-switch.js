@@ -5,9 +5,10 @@ Vue.component('switch-button', {
             type : Boolean,
             default : false,
             toWay : true
-        }
+        },
+        title: ''
     },
-    template: '<div class="s00d-switch" v-bind:class="{open :status}" v-on:click="status=!status"> <div class="s00d-switch__btn"></div></div>'
+    template: '<label class="s00d-switch_label" v-text="title"></label>  <div class="s00d-switch" v-bind:class="{open :status}" v-on:click="status=!status"><div class="s00d-switch__btn"></div></div>'
 });
 
 $(document).ready(function(){
