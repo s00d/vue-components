@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<link href="panel-accordion.css" rel="stylesheet" type="text/css">
+	<script type='text/javascript' src="vue.min.js"></script>
+	<script type='text/javascript' src="vue-panel-accordion.js"></script>
+</head>
+<body>
+<div id="test">
+   <pg-accordion :one_at_time=true>
+      <pg-panel header="title 1" :is-open="true">
+          content
+      </pg-panel>
+      <pg-panel header="title 2">
+          content
+      </pg-panel>
+      <pg-panel header="title 3">
+          content
+      </pg-panel>
+      <pg-panel header="Panel 4">
+          content
+      </pg-panel>
+    </pg-accordion>
+</div>
+</body>
+</html>
