@@ -1,11 +1,13 @@
 .s00d-switch {
     position: relative;
-    width: 50px;
-    height: 24px;
+    width: 35px;
     border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
     background-color: #ddd;
-    -webkit-transition: background-color 0.1s ease-in;
     transition: background-color 0.1s ease-in;
+    -webkit-transition: background-color 0.1s ease-in;
+    -moz-transition: background-color 0.1s ease-in;
     display: table-cell;
 }
 .s00d-switch.open {
