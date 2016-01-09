@@ -42,3 +42,24 @@ Vue.component('pg-panel', {
     '</div>'
 });
 
+Vue.component('pg-accordion', {
+    // camelCase in JavaScript
+    props: {
+        one_at_time: {
+            type: Boolean,
+            default: false
+        }
+    },
+    created: function() {
+        this.$on('isOpenEvent', function(child) {
+            if (this.one_at_time) {
+                this.$children.forEach(function (item) {
+                    if (child !== item) {
+                        item.isOpen = false
+                    }
+                })
+            }
+        })
+    },
+    template: '<div class="panel-group"><slot></slot></div>'
+});
