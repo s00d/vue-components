@@ -63,3 +63,10 @@ Vue.component('pg-accordion', {
     },
     template: '<div class="panel-group"><slot></slot></div>'
 });
+
+
+$(document).ready(function(){
+    var test = new Vue({
+        el: '#test',
+    })
+})
